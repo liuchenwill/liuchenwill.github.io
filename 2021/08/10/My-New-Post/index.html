@@ -185,7 +185,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      706 字
+      705 字
     </span>
   
 
@@ -228,8 +228,7 @@
             <h1 style="display: none">My First Post</h1>
             
             <div class="markdown-body">
-              <p>@<a href="ACM%E5%B8%B8%E7%94%A8%E6%A8%A1%E6%9D%BF">TOC</a></p>
-<h1 id="素数判定"><a href="#素数判定" class="headerlink" title="素数判定"></a>素数判定</h1><p>常规法<br>返回的类型是bool型，时间复杂度是<strong>O( sqrt(n) )</strong>;</p>
+              <h1 id="素数判定"><a href="#素数判定" class="headerlink" title="素数判定"></a>素数判定</h1><p>常规法<br>返回的类型是bool型，时间复杂度是<strong>O( sqrt(n) )</strong>;</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs javascript">bool <span class="hljs-function"><span class="hljs-title">isprime</span>(<span class="hljs-params">int x</span>)</span><br>&#123;<br>	<span class="hljs-keyword">if</span>(x==<span class="hljs-number">1</span>) <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;<br>	<span class="hljs-keyword">for</span>(int i= <span class="hljs-number">2</span>; i &lt;= sqrt(x);++i)<br>	&#123;<br>		<span class="hljs-keyword">if</span>(x%i == <span class="hljs-number">0</span>) <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;<br>	&#125;<br>	<span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
 <p>欧拉筛法<br> 时间复杂度最小O（n) 。<br> 数开的过大也会TL。</p>
 <figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs less">调用函数 <span class="hljs-selector-tag">prime</span>(MAX);  可以求<span class="hljs-selector-tag">MAX</span>以内的素数，存放在数组<span class="hljs-selector-tag">primenum</span><span class="hljs-selector-attr">[ ]</span>里。<br>数组<span class="hljs-selector-tag">num</span><span class="hljs-selector-attr">[ ]</span>里，值等于<span class="hljs-selector-tag">0</span>代表下标是素数（<span class="hljs-selector-tag">1</span>除外），值等于<span class="hljs-selector-tag">1</span>代表下标不是素数。<br></code></pre></td></tr></table></figure>
