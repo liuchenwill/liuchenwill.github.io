@@ -183,7 +183,7 @@
       <h1 class="index-header">
         
         <a href="/2021/08/10/My-New-Post/" target="_self">
-          My New Post
+          My First Post
         </a>
       </h1>
 
@@ -193,7 +193,10 @@
           
             
           
-          
+          @TOC
+素数判定常规法返回的类型是bool型，时间复杂度是O( sqrt(n) );
+123456789bool isprime(int x)&#123;	if(x==1) return false;	for(int i= 2; i &lt;= sqrt(x);++i)	&#123;		if(x%i == 0) return false;	&#125;	return true;&#125;
+欧拉
         </a>
       </p>
 
@@ -210,7 +213,7 @@
           <div class="post-meta mr-3">
             <i class="iconfont icon-category"></i>
             
-              <a href="/categories/heihei/">heihei</a>
+              <a href="/categories/ACM/">ACM</a>
             
           </div>
         
@@ -218,7 +221,7 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/m/">m</a>
+              <a href="/tags/%E7%AE%97%E6%B3%95/">算法</a>
             
           </div>
         
@@ -265,13 +268,6 @@ Quick
             
           </div>
         
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/ai/">ai</a>
-            
-          </div>
         
       </div>
     </article>
@@ -333,7 +329,7 @@ var now = new Date();
 
 function createtime() {
     //此处修改你的建站时间或者网站上线时间
-    var grt = new Date('08/10/2021 8:00:00');
+    var grt = new Date('2/10/2020 21:32:00');
     now.setTime(now.getTime() + 250);
     days = (now - grt) / 1000 / 60 / 60 / 24;
 
@@ -353,7 +349,7 @@ function createtime() {
     if (String(snum).length == 1) {
         snum = "0" + snum;
     }
-    document.getElementById("timeDate").innerHTML = " 本站已安全运行 " + dnum + " 天 ";
+    document.getElementById("timeDate").innerHTML = " 在一起 " + dnum + " 天 ";
     document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
 }
 setInterval("createtime()", 250);

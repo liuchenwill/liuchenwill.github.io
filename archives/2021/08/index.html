@@ -181,7 +181,7 @@
       <p class="h5">2021</p>
     
     <a href="/2021/08/10/My-New-Post/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">My New Post</span>
+      <span class="archive-post-title">My First Post</span>
       <time style="float: right;">08-10</time>
     </a>
   
@@ -249,7 +249,7 @@ var now = new Date();
 
 function createtime() {
     //此处修改你的建站时间或者网站上线时间
-    var grt = new Date('08/10/2021 8:00:00');
+    var grt = new Date('2/10/2020 21:32:00');
     now.setTime(now.getTime() + 250);
     days = (now - grt) / 1000 / 60 / 60 / 24;
 
@@ -269,7 +269,7 @@ function createtime() {
     if (String(snum).length == 1) {
         snum = "0" + snum;
     }
-    document.getElementById("timeDate").innerHTML = " 本站已安全运行 " + dnum + " 天 ";
+    document.getElementById("timeDate").innerHTML = " 在一起 " + dnum + " 天 ";
     document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
 }
 setInterval("createtime()", 250);
