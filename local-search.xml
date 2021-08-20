@@ -4,11 +4,40 @@
   
   
   <entry>
+    <title>浅层深度网络</title>
+    <link href="/2021/08/20/%E6%B5%85%E5%B1%82%E6%B7%B1%E5%BA%A6%E7%BD%91%E7%BB%9C/"/>
+    <url>/2021/08/20/%E6%B5%85%E5%B1%82%E6%B7%B1%E5%BA%A6%E7%BD%91%E7%BB%9C/</url>
+    
+    <content type="html"><![CDATA[<h2 id="浅层神经网络"><a href="#浅层神经网络" class="headerlink" title="浅层神经网络"></a>浅层神经网络</h2><div class="row">    <embed src="浅层神经网络.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    
+    <categories>
+      
+      <category>深度学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>机器学习</tag>
+      
+      <tag>人工智能</tag>
+      
+      <tag>深度学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>深层神经网络</title>
     <link href="/2021/08/20/%E6%B7%B1%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     <url>/2021/08/20/%E6%B7%B1%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</url>
     
-    <content type="html"><![CDATA[<h2 id="深层神经网络的实现"><a href="#深层神经网络的实现" class="headerlink" title="深层神经网络的实现"></a>深层神经网络的实现</h2><div class="row">    <embed src="深层神经网络.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="深度神经网络的实例"><a href="#深度神经网络的实例" class="headerlink" title="深度神经网络的实例"></a>深度神经网络的实例</h2><div class="row">    <embed src="深度神经网络的实例pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    <content type="html"><![CDATA[<h2 id="深层神经网络的实现"><a href="#深层神经网络的实现" class="headerlink" title="深层神经网络的实现"></a>深层神经网络的实现</h2><div class="row">    <embed src="深层神经网络.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="深度神经网络的实例"><a href="#深度神经网络的实例" class="headerlink" title="深度神经网络的实例"></a>深度神经网络的实例</h2><div class="row">    <embed src="深度神经网络的实例.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
     
     <categories>
