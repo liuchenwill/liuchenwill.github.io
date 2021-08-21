@@ -8,9 +8,25 @@
     <link href="/2021/08/21/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%AE%9E%E7%94%A8%E5%B1%82%E9%9D%A2/"/>
     <url>/2021/08/21/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%AE%9E%E7%94%A8%E5%B1%82%E9%9D%A2/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h2 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h2><div class="row">    <embed src="Initialization.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="Regularization"><a href="#Regularization" class="headerlink" title="Regularization"></a>Regularization</h2><div class="row">    <embed src="Regularization.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="Gradient-Checking"><a href="#Gradient-Checking" class="headerlink" title="Gradient+Checking"></a>Gradient+Checking</h2><div class="row">    <embed src="Gradient+Checking.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
     
+    <categories>
+      
+      <category>深度学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>机器学习</tag>
+      
+      <tag>人工智能</tag>
+      
+      <tag>深度学习</tag>
+      
+    </tags>
     
   </entry>
   
