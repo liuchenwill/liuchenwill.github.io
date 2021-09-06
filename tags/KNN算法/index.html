@@ -267,7 +267,7 @@ function createtime() {
     if (String(snum).length == 1) {
         snum = "0" + snum;
     }
-    document.getElementById("timeDate").innerHTML = " in " + dnum + " 天 ";
+    document.getElementById("timeDate").innerHTML = " In " + dnum + " 天 ";
     document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
 }
 setInterval("createtime()", 250);
